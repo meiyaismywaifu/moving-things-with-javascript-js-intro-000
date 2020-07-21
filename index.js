@@ -3,7 +3,7 @@ const app = "I don't do much."
 
 var dodger = document.getElementById('dodger');
 var widthString = $("#dodger").css("width");
-var width = parseInt(widthString.replace('px','');, 10);
+var width = parseInt(widthString.replace('px',''), 10);
   // for some reason "dodger.style.width" doesn't access it.
   // "dodger.style.right" gives null value, doesn't autocalc.
 var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
