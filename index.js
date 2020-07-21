@@ -9,6 +9,6 @@ document.addEventListener('keydown', (e)=>{
   if (e.which === 65 && leftEdge > 0){
     dodger.style.left= `${left - 5}px`;
   } else if (e.which === 68){
-    
+
   }
 })
