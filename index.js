@@ -10,9 +10,6 @@ var rightEdge = leftEdge + width;
 var rightFrame = parseInt($("#game").css("width").replace('px',''), 10);
 
 document.addEventListener('keydown', (e)=>{
-
-
-
   if (e.which === 65 && leftEdge > 0){
     dodger.style.left= `${leftEdge - 5}px`;
   } else if (e.which === 68 && rightEdge < rightFrame){
