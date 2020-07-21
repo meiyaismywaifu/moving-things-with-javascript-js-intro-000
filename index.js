@@ -4,13 +4,13 @@ const app = "I don't do much."
 document.addEventListener('keydown', (e)=>{
 
   // stuff doesn't move if i put this outside.
-  dodger = document.getElementById('dodger');
-  width = parseInt($("#dodger").css("width").replace('px',''), 10);
+  var dodger = document.getElementById('dodger');
+  var width = parseInt($("#dodger").css("width").replace('px',''), 10);
     // for some reason "dodger.style.width" doesn't access it.
     // "dodger.style.right" gives null value, doesn't autocalc.
-  leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
-  rightEdge = leftEdge + width;
-  rightFrame = parseInt($("#game").css("width").replace('px',''), 10);
+  var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
+  var rightEdge = leftEdge + width;
+  var rightFrame = parseInt($("#game").css("width").replace('px',''), 10);
 
   if (e.which === 65 && leftEdge > 0){
     console.log("moving left");
