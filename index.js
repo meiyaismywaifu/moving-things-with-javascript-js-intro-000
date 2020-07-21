@@ -7,7 +7,7 @@ var width = parseInt($("#dodger").css("width").replace('px',''), 10);
   // "dodger.style.right" gives null value, doesn't autocalc.
 var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
 var rightEdge = leftEdge + width;
-var rightFrame = parseInt($("game").css("width").replace('px',''), 10);
+var rightFrame = parseInt($("#game").css("width").replace('px',''), 10);
 
 document.addEventListener('keydown', (e)=>{
 
