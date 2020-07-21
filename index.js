@@ -5,7 +5,7 @@ var dodger = document.getElementById('dodger');
 
 document.addEventListener('keydown', (e)=>{
   console.log(e.which);
-  
+
   var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
   var rightEdge = parseInt(dodger.style.right.replace('px',''), 10)
 
