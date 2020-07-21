@@ -5,10 +5,11 @@ var dodger = document.getElementById('dodger');
 
 document.addEventListener('keydown', (e)=>{
   var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
+  var rightEdge = parseInt(dodger.style.right.replace('px',''), 10)
 
   if (e.which === 65 && leftEdge > 0){
     dodger.style.left= `${leftEdge - 5}px`;
-  } else if (e.which === 68){
-
+  } else if (e.which === 68 && rightEdge > 0){
+    dodger.style.right= `${righttEdge - 5}px`;
   }
 })
