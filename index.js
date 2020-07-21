@@ -2,7 +2,7 @@ const app = "I don't do much."
 //65 is A, 68 is D.
 
 var dodger = document.getElementById('dodger');
-//var width = $("dodger").css("width");
+var width = $("dodger").css("width");
   // for some reason "dodger.style.width" doesn't access it.
   // "dodger.style.right" gives null value, doesn't autocalc.
 
