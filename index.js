@@ -2,7 +2,6 @@ const app = "I don't do much."
 //65 is A, 68 is D.
 
 document.addEventListener('keydown', (e)=>{
-
   // stuff doesn't move if i put this outside.
   // doesn't matter that it has to be outside other than console inspection.
   var dodger = document.getElementById('dodger');
