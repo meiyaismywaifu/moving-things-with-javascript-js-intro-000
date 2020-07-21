@@ -9,6 +9,6 @@ document.addEventListener('keydown', (e)=>{
     var left = parseInt(leftNumbers, 10)
     dodger.style.left= `${left - 1}px`;
   } else if (e.which === 68){
-    
+
   }
 })
