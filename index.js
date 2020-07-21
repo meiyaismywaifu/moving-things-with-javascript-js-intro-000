@@ -8,7 +8,7 @@ document.addEventListener('keydown', (e)=>{
   var left = parseInt(leftNumbers, 10)
 
   if (e.which === 65 && left > 0){
-    
+
     dodger.style.left= `${left - 1}px`;
   } else if (e.which === 68){
 
