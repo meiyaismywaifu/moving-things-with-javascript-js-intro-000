@@ -14,10 +14,8 @@ document.addEventListener('keydown', (e)=>{
 
 
   if (e.which === 65 && leftEdge > 0){
-    console.log("moving left");
     dodger.style.left= `${leftEdge - 5}px`;
   } else if (e.which === 68 && rightEdge < rightFrame){
-    console.log("moving right");
     dodger.style.right= `${rightEdge - 5}px`;
   }
 })
