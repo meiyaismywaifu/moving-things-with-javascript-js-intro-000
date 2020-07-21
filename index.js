@@ -4,6 +4,7 @@ const app = "I don't do much."
 var dodger = document.getElementById('dodger');
 var width = $("dodger").css("width");
   // for some reason "dodger.style.width" doesn't access it.
+  // "dodger.style.right" gives null value.
 
 document.addEventListener('keydown', (e)=>{
 
