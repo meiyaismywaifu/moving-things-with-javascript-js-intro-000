@@ -5,11 +5,12 @@ var dodger = document.getElementById('dodger');
 var width = $("dodger").css("width");
   // for some reason "dodger.style.width" doesn't access it.
   // "dodger.style.right" gives null value, doesn't autocalc.
+var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
+var rightEdge = leftEdge + width;
 
 document.addEventListener('keydown', (e)=>{
 
-  var leftEdge = parseInt(dodger.style.left.replace('px',''), 10)
-  var rightEdge = leftEdge + width;
+
 
   if (e.which === 65 && leftEdge > 0){
     console.log("moving left");
