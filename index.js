@@ -9,7 +9,7 @@ document.addEventListener('keydown', (e)=>{
 
   if (e.which === 65 && left > 0){
 
-    dodger.style.left= `${left - 1}px`;
+    dodger.style.left= `${left - 5}px`;
   } else if (e.which === 68){
 
   }
